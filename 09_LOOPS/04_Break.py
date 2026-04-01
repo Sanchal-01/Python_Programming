@@ -1,3 +1,4 @@
+# break is a loop control statement.
 # The Break statement is used to exit a loop prematurely.
 
 for i in range (1, 10):
