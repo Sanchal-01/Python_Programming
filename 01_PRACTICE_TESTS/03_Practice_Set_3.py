@@ -16,7 +16,7 @@ str2= "World"
 Final_String= str1 + " " + str2
 print(Final_String) 
 
-#-----------------------#----------------------#------------------#------------------#--------------------#------------------#---------------------#----------------------#-------------------#----------------------#
+#-----------------------#----------------------#------------------#------------------#--------------------#------------------#---------------------#----------------------#-------------------#----------------------##----------------------#-------------------#----------------------#
 
 
 # CONCEPT 2 : String Slicing and Indexing
@@ -34,7 +34,7 @@ print(text[:7],text[-6:])               # text[0:7]---> First 6 characters, text
 print(text[18::-1])                     # Remember to write the no. of characters of strings to reverse and use "Double colons" '::' in between. 
 
 
-#-----------------------#----------------------#------------------#------------------#--------------------#------------------#---------------------#----------------------#-------------------#----------------------#
+#-----------------------#----------------------#------------------#------------------#--------------------#------------------#---------------------#----------------------#-------------------#----------------------##----------------------#-------------------#----------------------#
 
 # CONCEPT 3: String Methods and Functions
 
@@ -53,7 +53,7 @@ print(Open_to_All.count("o"))
 # TASK 2: Check if the string "123abc" is alphanumeric.
 print(Open_to_All.isalpha())         # Would return true only if the string has only alphabets i.e. no spaces and no numbers.
 
-#-----------------------#----------------------#------------------#------------------#--------------------#------------------#---------------------#----------------------#-------------------#----------------------#
+#-----------------------#----------------------#------------------#------------------#--------------------#------------------#---------------------#----------------------#-------------------#----------------------##----------------------#-------------------#----------------------#
 
 
 # CONCEPT 4 : String Formatting and f-Strings
@@ -65,5 +65,39 @@ print("My name is {} and I am {} years old".format(name,age))   # Function ko ca
 
 print(f"My name is {'Sanchal'} and I am {21} years old.")
 
-#-----------------------#----------------------#------------------#------------------#--------------------#------------------#---------------------#----------------------#-------------------#----------------------#
+#-----------------------#----------------------#------------------#------------------#--------------------#------------------#---------------------#----------------------#-------------------#----------------------##----------------------#-------------------#----------------------#
 
+# ADDITIONAL CONCEPT :Bonus Questions 
+
+# QUESTION 1 : Write a program that counts how many vowels are in a given string.
+
+# OPTION 1: 
+name = 'Sanchal'
+print(name.count('a'),name.count('e'),name.count('i'),name.count('o'),name.count('u'))
+
+# OPTION 2:
+name = "Sanchal"
+count = 0
+for char in name.lower():
+    if char in "aeiou":
+        count += 1
+
+print(count)
+
+
+
+# QUESTION 2 : Take a user input string and check if it is a palindrome (same forwards and backwards).
+
+user_in = input("Enter the string to check :")
+user_rev_output = user_in[len(user_in)::-1]
+
+print("Reverse of you I/P is :",user_rev_output)      # The print() by default space add karta hai between arguments.
+print(f"Reverse of you I/P is :{user_rev_output}")    # Here I have used f"Strings" to create best formatting and remove the unwanted space created between argument.
+
+if(user_in == user_rev_output):
+    print("TRUE : The string is a palindrome.")
+else:
+    print("FALSE : The string is not a palindrome.")
+
+
+#-----------------------#----------------------#------------------#------------------#--------------------#------------------#---------------------#----------------------#-------------------#----------------------##----------------------#-------------------#----------------------#
