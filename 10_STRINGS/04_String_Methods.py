@@ -26,9 +26,10 @@ print(w, w.title(), sep=" --> ")       # Converts the first character of each wo
 # REMOVING WHITESPACE
 naam = " Hellow World "
 print(naam.strip())  # O/P: "Hellow World"  # Removes whitespaces(both left and right)
-print(naam.lstrip()) # O/P: "Hellow World " # Removes only white space along the left side of text.
+print(naam.lstrip()) # O/P: "Hellow World " # Removes only white space along the left side of text.   
 print(naam.rstrip()) # O/P: " Hellow World" # Removes only white space along the right side of text.
 
+# Note: Strip function kabhi bhi print statement mein nahi lagta, hamesha string pe lagta hai.
 
 # FIND and REPLACE
 text = "Python is fun and fun & fun"
