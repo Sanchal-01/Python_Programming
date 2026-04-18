@@ -15,11 +15,10 @@ b = input("Enter the second Number - ")
 a=int(a)
 b=int(b)
 c= a+b
-print("The sum of two numbers is - ")
-print(c)
+print("The sum of two numbers is - ",c)
 
 
 # Most refines version of it :
 a= int(input("Enter the first Number - "))
 b= int(input ("Enter the second Number - "))
-print(a+b)
+print("The sum of two numbers is -",a+b)
