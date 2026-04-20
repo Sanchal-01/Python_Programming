@@ -1,4 +1,5 @@
 # TYPES OF ARGUMENTS:
+#-----------------------#----------------------#------------------#------------------#--------------------#------------------#---------------------#----------------
 
 # 1. POSITIONAL ARGUMENT:
 
@@ -10,6 +11,8 @@ def number(a, b, c):     # Here a, b, c are called PARAMETERS.
 z = number(5, 3, 1)    # Here 5, 3, 1 are called POSITIONAL ARGUMENTS beecause these are the real values which are being passed to the parameters of variables of the function.
 print(z)
 
+
+#-----------------------#----------------------#------------------#------------------#--------------------#------------------#---------------------#----------------
 
 
 # 2. DEFAULT ARGUMENT:
@@ -23,12 +26,14 @@ print(greet("Sanchal"))   # Here the default argument is over-written with new A
 
 
 # Example 2:
-def calc(a, b, plus=2):   # The default argument equals "2" to parameter "plus" has been executed. 
+def calc(a, b, plus=2):      # The default argument equals "2" to parameter "plus" has been executed. 
     return (a + b + plus)
 
-print(calc(2, 3))         # NOTE: We haven't passed the value of Para- plus in the function call/ argument assignment.
-#                           NOTE : Default Parameter/argument is always written after - Positional Parameter.
+print(calc(2, 3))            # NOTE: We haven't passed the value of Para- plus in the function call/ argument assignment.
 
+# NOTE : Default Parameter/argument is always written after - Positional Parameter.
+
+#-----------------------#----------------------#------------------#------------------#--------------------#------------------#---------------------#----------------
 
 
 # 3. KEYWORD ARGUMENT:
