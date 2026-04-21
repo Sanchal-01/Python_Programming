@@ -4,7 +4,7 @@
 # MUTABLE - We can add, remove, or modify elements in a list.
 
 List_1 = [1, 2, 34, 55, 123, 128, 45]
-# index =   0  1   2   3   4    5    6
+# index = 0  1   2   3   4    5    6
 
 # NOTE: Lists can store multiple data types or multiple values of the same data type.
 
