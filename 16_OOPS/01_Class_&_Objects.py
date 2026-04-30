@@ -48,7 +48,9 @@ class Employee:
         
         print("This is object:", self)   # shows memory address of object
         return 120000
-
+    
+    def get_salary_1(self):
+        return(200000)
 
 # OBJECT CREATION
 # ---------------------------
@@ -59,7 +61,7 @@ e1 = Employee()  # object 2
 # METHOD CALLING : Calling method using object
 # --------------------------------------------
 print(e.get_salary())   # for object e
-print(e1.get_salary())  # for object e1
+print(e1.get_salary_1())  # for object e1
 
 
 # ACCESSING CLASS VARIABLES
