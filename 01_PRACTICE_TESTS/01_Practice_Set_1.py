@@ -2,7 +2,7 @@
 print("Hello, World! Welcome to Python.")
 
 # 2. Write a program that prints poem using a single print statement:
-print("Twinke, twinke, little star,\n""How I wonder what you are!!")
+print("Twinke, twinke, little star,\nHow I wonder what you are!!")
 
 # 3. Create a varible to store: Your (name), Your(age), Your(Height in meters),
 # A boolean value representing whether you are a student/not:
@@ -20,6 +20,11 @@ num="45"
 int_num=int(num)
 int_num +=10
 print(int_num)
+
+#OR
+integer = int("45")
+integer += 10
+print(integer)
 
 
 # 5. Write a program that:
