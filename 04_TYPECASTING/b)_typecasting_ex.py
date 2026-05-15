@@ -26,5 +26,10 @@ c=int(My_age)
 print(c)
 print(type(c))
 
-# NOTE: int() → sirf numbers ko convert karta hai integer value mein, text ko nahi.Same goes with other data types i.e.
-#if suppose kisi variable mein Integer value stores hai to hum use string bana sakte hain but characters generate nahi kara sakte.
+
+# NOTE: int() → sirf numbers ko convert karta hai integer value mein, text ko nahi. 
+# g = int("sanchal")
+# print(type(g))
+
+# Same goes with other data types i.e.if suppose kisi variable mein Integer value stored hai to hum use string bana 
+# sakte hain but characters generate nahi kara sakte.
