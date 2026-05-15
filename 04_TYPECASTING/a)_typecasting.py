@@ -11,3 +11,6 @@ print(type(c))
 e= str(d)
 print(e)
 print(type(e))
+
+f=float("45")
+print(f,type(f))
