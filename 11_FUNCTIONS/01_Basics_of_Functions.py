@@ -1,6 +1,12 @@
 # Functions help in reusability and modularity in Python.
 # NOTE : 👉 print() kuch return nahi karta 👉 iska return value = "None"
 
+# NOTE : Brackets () CALL/EXECUTE a function. 
+# E.g.   say_hello  -  Just referring to the function.
+#        say_hello() - Run/execute the function.
+
+
+
 a = 2
 b = 3
 c = 4
