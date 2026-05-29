@@ -26,3 +26,4 @@ print (name[1:])         # Replace the second empty number with length # name[1:
 
 print(name[17::-1])        # Output: 099101020_lahcnaS  (reverses string)
 
+print(name[17::-2])        # Output: 09000lhnS (reverses string with skipping 1 character)
