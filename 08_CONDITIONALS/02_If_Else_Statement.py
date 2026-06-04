@@ -5,4 +5,4 @@ if(Promise==1):
 else:
     print("You are Not eligible for the trip")
 
-print ("End or start of this vacation ??")
+print ("start or End of this vacation ??")
