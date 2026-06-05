@@ -80,10 +80,7 @@ def employee(department, **kwargs):
 employee("IT",name="Alice",salary=50000)
 
 
-
-# =====================================================
 # IMPORTANT NOTES
-# =====================================================
 
 # 1. **kwargs collects EXTRA keyword arguments.
 # 2. kwargs becomes a dictionary.
@@ -93,9 +90,3 @@ employee("IT",name="Alice",salary=50000)
 # 6. Useful when number of inputs is unknown.
 
 
-# =====================================================
-# FINAL DEFINITION
-# =====================================================
-# **kwargs allows a function to accept
-# variable number of keyword arguments
-# by collecting them into a dictionary.
