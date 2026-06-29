@@ -1,0 +1,61 @@
+# Use should not use AI as shortcuts while Learning phase. 
+# Never use AI to solve Practice Problems, we won't learn anything.
+# During this phase try to minimize the use of AI as much as we can.
+
+# HOW TO USE AI?
+Once we are at the Stage where we have practiced a lot of problems and understand most the things, how the concepts work.
+Whenever working on a big application and want to automate repetitive boring task like average of two numbers, capitalizing a string or any function to get rid of all the commas.
+We can use AI for these tasks.
+
+------------------------------
+STRATEGY 1 : DIVIDE & CONQUER:
+------------------------------
+# Ex: We want to build an ecommerce website
+
+# AI Prompt WRONG WAY: Give me code to build an ecommerce website .
+
+CORRECT WAY: Divide the entire application into modules and work on every module specifically and in severe case only take help of AI for generating the code for that entire module specifically. This is because in case of any error you need not to debug the entire applicationall along.
+this way save time and improves customization. 
+
+--------------------------------------
+STRATEGY 2 : WHICH AI TOOL TO USE WHEN 
+----------------------------------------
+# Always try to use that ai tool which is specifically designed for the task.
+# Like use Github copilot/ Claude ~ writing code
+      use Gemini Flash 3.5 ~ Faster and accurate task complition
+      use ChatGPT  ~ overall general day to day tasks 
+
+
+--------------------------------------------------------
+# STRATEGY 3 : BE VERY SPECIFIC WHILE WRITING PROMPTS
+--------------------------------------------------------
+Better the Prompt ------------> Better the result.
+Try to create Prompt template - Sppose while debugging a code u found that your invested time in creating a good prompt wortwhile then you should always try to save that prompt for future.
+This will save time and efforts next time ----> just need certain improvements.
+
+# Ex: We want to build an ecommerce website
+# Prompt : Start with explaining your project, what are there in the project, what functionalities have been performed, what we want to as more functions, what specific problem I want to solve ?
+#          Then at the last ask how to I do it/ generate code for me in Python or any language.
+# NOTE: Sometimes a good prompt can make Huge differences.
+
+
+
+---------------------------------------------
+# STRATEGY 4 : DO NOT RELY UPON AI TOO MUCH...
+----------------------------------------------
+Try to apply our own brain and think what could be the solution, How can I make it more creative, What challenges I would face if I take this pathway.
+Never use AI for creative tasks....apply your own Brain because AI can tell you the solution on which it has been trained, you can definitely haven a better idea.
+Do not kill the Human inside you.
+
+------------------------------------
+# STRATEGY 5 : USE AI FOR DIRECTION 
+------------------------------------
+We can always use Ai for generating more Practice Problems to get command over any concept in depth and can submit our solution to ask for any scope of improvements.
+Always Train your Human Mind.
+
+Make Mistakes and Learn from mistakes and Improve.
+
+------------------------------------------------
+# STRATEGY 6 : ALWAYS CREATE TASK SPECIFIC CHATS 
+------------------------------------------------
+Create different Chats for different applications or tasks.
