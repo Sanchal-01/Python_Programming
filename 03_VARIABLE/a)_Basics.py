@@ -1,5 +1,5 @@
 # In python,Variables are used to store data that can be used and manipulated throughout the program .
-# A variable is created the moment you assign a value to it using the ASSIGNMENT OPERATOR(=).
+# A variable is created the moment we assign a value to it using the ASSIGNMENT OPERATOR(=).
 
 age = 22 #integer 
 name ="Sanchal" #String
