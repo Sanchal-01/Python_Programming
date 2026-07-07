@@ -1,12 +1,12 @@
-# a = input("Enter a Number - ")
-# print(a)
+a = int(input("Enter a Number - "))
+print(f"The number you entered is {a}.\n")
 
-# b= input("Enter your Name - ")    # Assign the value of input function i.e name to variable b.
-# print(b)                          # print b
+b = input("Enter your Name - ")    # Assign the value of input function i.e name to variable b.
+print(f"Your name is {b}.\n")       # print b
 
-# c=input("Enter your AGE - ")
-# print(c)
+c = int(input("Enter your AGE - "))
+print(f"Your known age is {c}.")
 
-d =int(input("Enter your age : "))
-print("Your age is ", d,"\n")
-print(type(d))
+print(type(c))
+
+# Improvement : Use of f"strings" improves readability and brings consistency in the code.
