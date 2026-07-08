@@ -16,10 +16,11 @@ else:
     print(False)
 
 # 4. You are given a string num="45".Convert it into an integer, Add 10 to it & Print the result.
-num="45"
-int_num=int(num)
-int_num +=10
-print(int_num)
+string ="45"
+num = int(string)
+num += 10
+print(num)
+
 
 #OR
 integer = int("45")
@@ -27,10 +28,16 @@ integer += 10
 print(integer)
 
 
+
 # 5. Write a program that:
 # Asks user for their favourite food and prints Wow!I also like <food>.
 food=input("Enter the name of your favourite food here : ")
 print("Are u serious! Wow! I also like,",food)
+
+# Improved Version:
+fruit =input(" WHat's your favourite fruit ?")
+print(f"Wow!! {fruit} is my favourite fruit as well.")
+
 
 
 # 6. Write a program that takes 2 numbers as input from the user :
@@ -44,11 +51,23 @@ quotient= num_1/num_2
 print(sum,diff,product,quotient, sep="\n")
 
 
+# Improved Version
+num_1= int(input("Enter the 1st numbers of your choise :"))
+num_2= int(input("Enter the 2nd numbers of your choise :"))
+print(f"The sum is {num_1+num_2}")
+print(f"The difference is {num_1-num_2}")
+print(f"The quotient is {num_1/num_2}")
+print(f"The product is {num_1*num_2}")
+
+
+
 # 7. Escape Sequence:Print the following output using escape sequences:
 # Hello "Python" World!
 # This is on a new line.
 # This is a tab →	    after tab.
 print("Hello \"Python\" World!\n""This is on a new line\n""This is a \t after tab")
+
+
 
 # 8. Write a program that takes an integer as input from the user and prints the square & cube of that number.
 a = int(input ("Enter a  number : "))
@@ -56,3 +75,17 @@ b =int(input ("Enter 2nd number : "))
 a **= 2
 b **= 3
 print(a,b)
+
+
+
+# Slight Logic Change :
+number =int(input("Enter a number :"))
+square = number*number
+cube = number*number*number
+
+operation = input("Enter the operation you want to perform :")
+
+if operation == square:
+    print(f"The square of number is {square}")
+else:
+    print(f"The cube of number is {cube}")
