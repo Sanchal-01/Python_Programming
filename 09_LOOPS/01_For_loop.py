@@ -1,7 +1,9 @@
-print ("Hello! How are u ??")
-
+n = 5
+for i in range (1,n):
+    print ("Hello! How are u ??")
 
 # Here the for loop works within a range of values where, range is from 1 to (n-1) i.e. 4. That's why print function prints values from 1 to 4, that is 4 times iteration.
+
 
 # METHOD : 1
 for l in range(1, 5):
@@ -39,11 +41,26 @@ for k in range(6):
 
 for i in range (1, 6):
     print("Blessings of our elders are always with us.")
-for j in range(6, 11):
-    print("SO, don't worry :) ")
+    print("SO, don't worry :) ")                            # Removed this print statement out of the second loop to ensure that it is not printed after the completion of !st loop containing i as iterator.
 
+#-----------------------------------------------------------#-----------------------------------------------------------#-----------------------------------------------------------#
+# Another way of solving the above problem statement: 
 
+for i in range (1, 6):
+    print("Blessings of our elders are always with us.")
+    for j in range(1):                                     # This static 1 ensures that the loop is executed only once aafter the first for loop.
+            print ("No need to worry about anything.")
+
+#-----------------------------------------------------------#-----------------------------------------------------------#-----------------------------------------------------------#
 
 # Table of 7 :
 for m in range(1, 16): # Value of m(i.e. 5 x m) starting from 1 goes to 15.
     print("7","X",m,"=",7*(m))
+
+
+
+# Allowed user to enter the number of their choise for table creation : 
+user_input = int(input("Enter number whose table you want to have: "))
+for i in range (1, 11):
+     print(f" {user_input} X {i} = {user_input * i}")
+     
