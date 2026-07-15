@@ -1,5 +1,5 @@
 # WHile loops execute a block of code as long as condition inside the loop is True.
-# This loop is useful when number of iterations are not known in advance Unlike for loop where the number of iterations are known as range.
+# This loop is useful when number of iterations are not known in advance Unlike "for" loop where the number of iterations are known as range.
 
 # Example : Print number from 1 to 5 
 
@@ -19,3 +19,11 @@ while(m < 5):
 # Now m = 5 -->Check condition (m<5), since(5<5) FALSE  --> Therefore as soon as condition becomes false the command inside loop is not executed and loop exits.
 
 
+
+# Just trying something new O_O :
+user_input = input("Enter your name : ").lower()
+while user_input != "exit":
+    print(f"You have a nice name, {user_input}")
+    user_input = input("Enter your name : ").lower()  # This stops the infinite loop
+
+print("Thanks for telling your name.")
