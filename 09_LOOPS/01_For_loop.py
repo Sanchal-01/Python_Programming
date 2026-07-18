@@ -64,3 +64,32 @@ user_input = int(input("Enter number whose table you want to have: "))
 for i in range (1, 11):
      print(f" {user_input} X {i} = {user_input * i}")
      
+
+# ------------------------------------------------------------#------------------------------------------------------------#------------------------------------------------------------#     
+
+# REVISION : QUESTIONS PRACTICE
+
+# Level Basic:
+# Q1. Print numbers from 1 to 20 using a for loop.
+
+for i in range (1,21):
+    print(f"This is {i} \n ")
+
+
+# Q2 Print all even numbers between 1 and 50.
+
+# Method 1:
+for i in range (1,50):
+    if i % 2 ==0:
+        print (i)
+
+# Method 2:
+def check_even(number):
+    if number % 2 == 0:
+        return True
+    return False
+
+for i in range(1, 51):
+    if check_even(i):
+        print(f"Even number is {i}")
+
