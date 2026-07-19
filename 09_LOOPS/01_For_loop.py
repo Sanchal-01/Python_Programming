@@ -70,8 +70,8 @@ for i in range (1, 11):
 # REVISION : QUESTIONS PRACTICE
 
 # Level Basic:
-# Q1. Print numbers from 1 to 20 using a for loop.
 
+# Q1. Print numbers from 1 to 20 using a for loop.
 for i in range (1,21):
     print(f"This is {i} \n ")
 
@@ -92,4 +92,25 @@ def check_even(number):
 for i in range(1, 51):
     if check_even(i):
         print(f"Even number is {i}")
+
+
+# Q3.Print all odd numbers between 1 and 50.
+for i in range (1,51):
+    if i % 2 != 0:
+        print (f"This is odd {i}") 
+
+
+# Q4. Print the multiplication table of 7.
+for i in range (1,11):
+    print(f" 7 X {i} = {7 * i }")
+
+
+# Q5 Find the sum of numbers from 1 to 100.
+
+sum = 0
+for i in range (1,101):
+    sum = sum + i
+
+print(sum)
+
 
