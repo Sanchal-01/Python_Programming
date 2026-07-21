@@ -19,6 +19,24 @@ while(m < 5):
 # Now m = 5 -->Check condition (m<5), since(5<5) FALSE  --> Therefore as soon as condition becomes false the command inside loop is not executed and loop exits.
 
 
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
+
+g = 10
+
+while (g > 5):
+    print(f"Okay..{g}")
+
+    g = g - 1
+
+    if g == 6:
+        break
+print("Loop Terminated Successfully....")
+
+# In this example we have used three concepts, C1 : Initialized loop with a condition (g > 5)
+#                                              C2 : Increment/ decrement the value of g (g -= 1)
+#                                              C3 : For peaceful loop termination we have set decided to break the loop at a paticular value using if control statement. 
+
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
 
 # Just trying something new O_O :
 user_input = input("Enter your name : ").lower()
@@ -27,3 +45,29 @@ while user_input != "exit":
     user_input = input("Enter your name : ").lower()  # This stops the infinite loop
 
 print("Thanks for telling your name.")
+
+
+
+
+# Just trying to include multiple loop concept into one example:
+
+try: 
+    user_input = input("Enter your correct age: ").lower()
+ 
+    while user_input != "exit":
+        
+        user_age = int(user_input) 
+        print(f"Your age is, {user_age} \n")
+
+        if user_age <= 18:
+            print("You are a child, prohibited vehicle allowance")
+
+        else:
+            print("You are an adult, allowed to drive a vehicle.")
+
+        user_input = input("Enter your correct age: ").lower()  # This stops the infinite loop
+
+    print("Thanks for telling your age")
+
+except Exception as Reason:
+    print("There's an Error:- ", Reason)
