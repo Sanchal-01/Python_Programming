@@ -45,7 +45,8 @@ for i in range(0,3):
             break
         print(i, j)
 
-
+# --------------------------------------------------------------------------------------------------------------------------------------#
+# LEVEL 1 BASIC
 
 # Important Question 1 :
 # Write a program which loop 1 to 50, if number divisible by 3 -->skip,if number divisible by 7--> STOP. Print rest of the numbers.
@@ -59,20 +60,113 @@ for i in range (1,51):
 
 
 
-# Important Question 2:  Write a program
-
-# Task:Loop from 1 to 20
+# Important Question 2:  Write a program which Loop from 1 to 20:
 # - If the number is even → print "Even",
 # - If the number is odd → print the number itself,
-# - If the number is 13 → stop the loop completely,
+# - If the number is 13 → stop the loop completely
 
 for m in range (1, 21):
-    if(m==13):
-        break
-    if (m %2 ==0):
-        print("Number is Even")
+    if (m % 2 == 0):
+        print(f"{m}: Even number")
     else:
-        print("Odd number is = ",m)
-    
+        print(f"{m}: Odd number.")  
+
+    if m== 10:
+        break
+print("\nLoop execution successful.....")
   
 
+# Important Question 3:  Write a program which
+# Take numbers from the user continuously.
+# If the user enters 0, stop taking input.
+
+value = True
+while (value):
+    num = int(input("Enter the number: "))
+    if num == 0:
+        print("Warning, do not enter 0.")
+        num = int(input("Enter the number: "))
+        if num == 0:
+            print("\nThanks but no thanks...P")
+            break
+
+
+# Important Question 3:  Write a program which
+# Print numbers from 1 to 100.Stop as soon as you find the first number divisible by 17.
+
+for i in range (1,101):    
+    if i % 17 == 0:
+        print(f"{i} is divisible by 17, we are stopping.\n")
+        break
+    print(i)
+
+
+
+# Important Question 4:  Write a program which
+# Print every character of "Programming". Stop when the character 'g' appears for the first time.
+
+char = "Programming"
+
+for char in char:
+    if char == "g":
+        print("This is the first g so we are stopping.")
+        break
+    print(f"{char}")
+
+# --------------------------------------------------------------------------------------------------------------------------------------#
+# LEVEL 2 : ADVANCED
+
+# Important Question 1. Search for a number in a list.
+# numbers = [15, 22, 9, 45, 31, 18]. If 45 is found, print Found! and immediately stop searching.
+
+numbers = [15, 22, 9, 45, 31, 18]
+
+for numbers in numbers:
+    if numbers == 45:
+        print("45 found !! Stopping loop execution")
+        break
+
+    print(numbers)
+
+
+# # Important Question 2.
+# # Take password input repeatedly.
+# Correct password:python123. Keep asking until the correct password is entered.
+
+value = True
+while (value):
+    password = input("Enter the correct password: ")
+
+    if not password == "python123":
+        print("Please, enter the correct password")
+        
+    if password == "python123":
+        print("Access granted.")
+        break
+    
+
+
+
+# Ultimate Challenge
+
+# Without using exit() or quit().
+# Create a guessing game.Secret number = 27
+# User keeps guessing.
+# If guess is correct,Congratulations! and terminate the loop using only break.
+
+value = True
+while (value):
+
+    secret_number = 27
+    guess = int(input("Enter the number you want to guess: ")) 
+
+    match guess:
+        case 10:
+            print("Better luck next time")
+        
+        case 27:
+            print("Kya baat hai !! Bilkul sahi jawab.")
+            break
+
+        case _:
+            print("Bad guess")
